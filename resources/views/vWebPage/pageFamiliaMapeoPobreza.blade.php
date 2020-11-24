@@ -121,7 +121,7 @@
 
             google.maps.event.addListener(marcador, 'click', (function(marcador, i) {
                 return function() {
-                    infoWindow.setContent('FAMILIA: '+ chinchetas[i].NOM_FAMILIA+' <br>'+'<strong><a href="#" onclick="MostrarDatosFamilia(\''+chinchetas[i].ID_REPRES+'\')" >Ver Datos</a></strong>');
+                    infoWindow.setContent('FAMILIA: '+ chinchetas[i].NOM_FAMILIA+' <br>'+'<strong><a href="#" onclick="MostrarDatosFamilia(\''+chinchetas[i].ID_REPRES+'\')" >Ver Datos</a></strong><br><strong><a href="http://maps.google.com/maps?z=12&t=m&q=loc:'+chinchetas[i].LATITUD+'+'+chinchetas[i].LONGITUD+'" target="_blank">Ver Google Maps</a></strong>');
                     infoWindow.open(map, marcador);
                 }
             })(marcador, i));
