@@ -98,7 +98,8 @@
 
                                             <div class="row">
                                                 <div class="col-12 text-center">
-                                                    <img src="images/logo/login_rym.png">
+                                                    <img src="/images/logo/escudo_muni.png">
+
                                                 </div>
                                             </div>
                                             <div class="text-center title-style mb-6">
@@ -130,12 +131,6 @@
                                                     <button type="submit"
                                                         class="btn btn-primary btn-block px-4">Acceder</button>
                                                 </div>
-                                                <div class="col-12 text-center">
-                                                    <a href="forgot-password.html"
-                                                        class="btn btn-link box-shadow-0 px-0">¿Se te olvidó tu
-                                                        contraseña?</a>
-                                                </div>
-
                                             </div>
 
                                         </form>

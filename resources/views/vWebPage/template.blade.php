@@ -165,7 +165,6 @@
 
 <script src="/activos/pWebPage/shopwise_v1/assets/js/a04aa47ba2.js" crossorigin="anonymous"></script>
 
-<script src="js/jsWeb/js_vistarapida.js"></script>
 
 </body>
 </html>

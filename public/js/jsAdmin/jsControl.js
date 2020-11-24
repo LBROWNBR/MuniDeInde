@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
 });
 
 function carga_loading_01(containerid){
@@ -65,4 +64,3 @@ function DirectPage(route) {
         $("#div_contenido_body").html(data);
     });
 }
-

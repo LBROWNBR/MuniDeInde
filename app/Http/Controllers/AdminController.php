@@ -83,9 +83,15 @@ class AdminController extends Controller
 
             $xData['DataUsuario']   = AdminUsuario::VerDatoUsuarioById(['id' => $wIdUser]);
             $xData['DataPersonal']  = AdminPersonal::VerDatoPersonalByID(['ID_PERSONAL' => $wIdPers]);
+
             $xData['DataRol']       = AdminRol::VerRolById(['ID_ROL' => $wIdRol]);
+            $xData['DataMenu_x_Rol']   = AdminRol::ListarMenu_x_ROL(['ID_ROL' => $wIdRol]);
+            $xData['DataSubMenu01_x_Rol']   = AdminRol::ListarSubMenu01_x_ROL(['ID_ROL' => $wIdRol]);
+            $xData['DataSubMenu02_x_Rol']   = AdminRol::ListarSubMenu02_x_ROL(['ID_ROL' => $wIdRol]);
+            
+            
 
-
+            //-----
             return view('vWebPageAdmin.intranet.pageAdmControl', ['wData' => $xData]);
 
         }else{

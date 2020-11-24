@@ -79,15 +79,15 @@
 
                                 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 
-                                <a href="/registrate" style="color: #ffffff; font-size: 18px; margin-right: 5px;"><i class="far fa-building"></i> Registro de Familia</a>
+                                <a href="/registrate" style="color: #ffffff; font-size: 18px; margin-right: 5px;"><i class="fa fa-fw fa-group"></i> Registro de Familia</a>
 
                                 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 
-                                <a href="#" style="color: #ffffff; font-size: 18px; margin-right: 5px;"><i class="far fa-building"></i> Mapeo de Familia</a>
+                                <a href="/mapeofamilias" style="color: #ffffff; font-size: 18px; margin-right: 5px;"><i class="fa fa-fw fa-map"></i> Mapeo de Familia</a>
 
                                 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 
-                                <a href="#" style="color: #ffffff; font-size: 18px; margin-right: 5px;"><i class="fas fa-map-marker-alt"></i> Requisitos</a>
+                                <a href="/requisitos" style="color: #ffffff; font-size: 18px; margin-right: 5px;"><i class="fa fa-fw fa-list"></i> Requisitos</a>
 
                                 &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 

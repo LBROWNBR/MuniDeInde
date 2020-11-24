@@ -60,4 +60,16 @@ class MaestrasModel extends Model
     }
 
 
+    //-----------------------------------------------------------------------------
+    //------------------------   TIPO GENERO     -------------------------------
+    //-----------------------------------------------------------------------------
+
+    public static function ListarParentesco(){
+        $Resultado = DB::select("
+            SELECT * FROM t_mae_parentesco WHERE ID_ESTADO = '1'
+        ");
+        return $Resultado;
+    }
+
+
 }

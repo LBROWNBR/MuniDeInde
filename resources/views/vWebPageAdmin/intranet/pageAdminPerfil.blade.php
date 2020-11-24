@@ -76,7 +76,7 @@ echo "
         $pControlPerfil_NomFoto   = 'usuario.png';
     }
 
-    $RutaFotoPerfilPersonal = '../images/personal/'.$pControlPerfil_NomFoto;
+    $RutaFotoPerfilPersonal = '../images/logo/Usuario.png';
 
 @endphp
 
@@ -110,8 +110,7 @@ echo "
             <div class="card-body text-center">
                 <div class="pro-user">
                     <h4 class="pro-user-username text-dark mb-1 font-weight-bold">{{ $pControlPerfil_NombreCompleto }}</h4>
-                    <h6 class="pro-user-desc text-muted">{{ $pControlPerfil_RolPersonal }}</h6>
-                    <a href="profile.html" class="btn btn-primary  mt-3"><i class="fa fa-pencil"></i> Editar Perfíl</a>
+                    <h6 class="pro-user-desc text-muted">{{ $pControlPerfil_RolPersonal }}</h6>                  
                 </div>
             </div>
         </div>

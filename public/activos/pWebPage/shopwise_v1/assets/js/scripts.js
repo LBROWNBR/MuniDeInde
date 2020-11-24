@@ -586,6 +586,8 @@ PAGE JS
 	/*===================================*
     16.MAP JS
     *===================================*/
+
+    /*
 	if ($("#map").length > 0){
 		google.maps.event.addDomListener(window, 'load', init);
 	}
@@ -609,6 +611,7 @@ PAGE JS
 		});
 		marker.setAnimation(google.maps.Animation.BOUNCE);
 	}
+	*/
 
 
 	/*===================================*
